@@ -1,5 +1,29 @@
 # @browserbasehq/stagehand
 
+## 3.5.0
+
+### Minor Changes
+
+- [#2149](https://github.com/browserbase/stagehand/pull/2149) [`6e75725`](https://github.com/browserbase/stagehand/commit/6e75725b39898b3cbad681272009a69d94ca8238) Thanks [@miguelg719](https://github.com/miguelg719)! - Added a `screenshot` option to `extract()` that sends the current viewport screenshot with the a11y tree for extraction.
+
+- [#2127](https://github.com/browserbase/stagehand/pull/2127) [`78bcde8`](https://github.com/browserbase/stagehand/commit/78bcde88e28f147acc6ca9aef9753cd96c870c35) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - Add `ignoreDefaultArgs` option to selectively remove chrome-launcher's built-in default flags (e.g. `--disable-extensions`) when running locally
+
+### Patch Changes
+
+- [#2146](https://github.com/browserbase/stagehand/pull/2146) [`3a53ed4`](https://github.com/browserbase/stagehand/commit/3a53ed4ea97e079b295059a338f1ef8e768f8919) Thanks [@shriyatheunicorn](https://github.com/shriyatheunicorn)! - Pass local browser launch options through when attaching over CDP so explicit viewport settings are respected.
+
+- [#2107](https://github.com/browserbase/stagehand/pull/2107) [`8fc16d2`](https://github.com/browserbase/stagehand/commit/8fc16d2e1845807103da6e62928b28e0de03ab90) Thanks [@miguelg719](https://github.com/miguelg719)! - Fix Anthropic CUA `triple_click` action mapping.
+
+- [#2118](https://github.com/browserbase/stagehand/pull/2118) [`3e95a87`](https://github.com/browserbase/stagehand/commit/3e95a8722a46bd7fca4d79644fe4605d7dc61bf6) Thanks [@monadoid](https://github.com/monadoid)! - Add Vertex auth parameters to the core and server API schemas.
+
+- [#2126](https://github.com/browserbase/stagehand/pull/2126) [`ebbdcd3`](https://github.com/browserbase/stagehand/commit/ebbdcd33cbd137d36c9469c5ef0f531ee45a0bd8) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fix(core): import ToolSet from ai public export
+
+- [#2120](https://github.com/browserbase/stagehand/pull/2120) [`12703a6`](https://github.com/browserbase/stagehand/commit/12703a6659853e2afe2d28df71d8a9b916f9df65) Thanks [@miguelg719](https://github.com/miguelg719)! - Fix structuredOutputMode for newer Anthropic models
+
+- [#2116](https://github.com/browserbase/stagehand/pull/2116) [`cb586a1`](https://github.com/browserbase/stagehand/commit/cb586a14e46e616caa712afa6b7ceb4dc42b7fc6) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - include "[selected]" or "[checked]" state in snapshot
+
+- [#2129](https://github.com/browserbase/stagehand/pull/2129) [`765861c`](https://github.com/browserbase/stagehand/commit/765861c04c46851663919277f330d27a87bae823) Thanks [@miguelg719](https://github.com/miguelg719)! - Add a backend-selectable v3 evaluator facade while preserving the legacy evaluator path.
+
 ## 3.4.0
 
 ### Minor Changes
